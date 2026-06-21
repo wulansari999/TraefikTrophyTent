@@ -1,0 +1,22 @@
+{
+  "build_id": "b22cdd83",
+  "timestamp": "2026-06-21T17:32:20Z",
+  "module": "github.com/wulansari999/TraefikTrophyTent",
+  "package": "pkg/provider/file",
+  "go_version": "1.21",
+  "build_status": "passed",
+  "test_status": "PASS",
+  "files": [
+    "pkg/provider/file/debounce_test.go",
+    "pkg/provider/file/file_test.go",
+    "pkg/provider/file/file.go",
+    "main.go"
+  ],
+  "provider_config": {
+    "debounce_ms": 500,
+    "watcher": "fsnotify",
+    "atomic_write_support": true,
+    "deadlock_protection": true,
+    "consecutive_write_handling": "debounced"
+  }
+}

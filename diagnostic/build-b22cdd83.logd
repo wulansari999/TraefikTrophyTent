@@ -1,0 +1,19 @@
+TraefikTrophyTent Build Diagnostic
+==================================
+Build ID:    b22cdd83
+Timestamp:   2026-06-21T17:32:20Z
+Module:      github.com/wulansari999/TraefikTrophyTent
+Package:     pkg/provider/file
+Build:       passed
+Tests:       PASS
+Debounce:    500ms
+Watcher:     fsnotify
+Atomic Writes: True
+Deadlock Protection: True
+Rapid Write Handling: debounced
+
+Files:
+  - pkg/provider/file/debounce_test.go
+  - pkg/provider/file/file_test.go
+  - pkg/provider/file/file.go
+  - main.go
